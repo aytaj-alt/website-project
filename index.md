@@ -7,7 +7,7 @@ title: Home
 <section class="hero">
   <div class="hero-content">
     <div class="profile-section">
-      <img src="/assets/img/image.png" alt="Profile" class="profile-photo" />
+<img src="{{ site.baseurl }}/assets/img/image.png" alt="Profile" class="profile-photo" />
       <h1 class="hero-title">Aytaj Mirzazada</h1>
       <p class="hero-subtitle">Web Developer & Graphic Designer</p>
       <p class="hero-description">

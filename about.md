@@ -1,6 +1,8 @@
 ---
 layout: default
 title: About
+permalink: /about/
+
 ---
 
 <section class="page-header">

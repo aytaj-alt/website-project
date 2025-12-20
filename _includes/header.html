@@ -3,13 +3,12 @@
     <div class="nav-logo">
       <a href="/"><i class="fas fa-code"></i> Portfolio</a>
     </div>
-   <nav class="navbar">
-  <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
-  <a href="{{ site.baseurl }}/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
-  <a href="{{ site.baseurl }}/projects/" class="{% if page.url == '/projects/' %}active{% endif %}">Projects</a>
-  <a href="{{ site.baseurl }}/contact/" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
-</nav>
-
+    <div class="nav-menu" id="navMenu">
+      <a href="/" class="nav-link active">Home</a>
+     <a href="{{ site.baseurl }}/about/">About</a>
+<a href="{{ site.baseurl }}/projects/">Projects</a>
+      <a href="{{ site.baseurl }}/contact/">Contact</a>
+    </div>
     <div class="hamburger" id="hamburger">
       <span></span>
       <span></span>

@@ -3,11 +3,10 @@ layout: default
 title: Home
 ---
 
-<!-- Home Section -->
 <section class="hero">
   <div class="hero-content">
     <div class="profile-section">
-<img src="{{ site.baseurl }}/assets/img/image.png" alt="Profile" class="profile-photo" />
+      <img src="/assets/img/image.png" alt="Profile" class="profile-photo" />
       <h1 class="hero-title">Aytaj Mirzazada</h1>
       <p class="hero-subtitle">Web Developer & Graphic Designer</p>
       <p class="hero-description">
@@ -28,7 +27,6 @@ title: Home
   </div>
 </section>
 
-<!-- Featured Section -->
 <section class="featured">
   <div class="container">
     <h2>Featured Projects</h2>
